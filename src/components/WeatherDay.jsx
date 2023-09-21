@@ -3,8 +3,6 @@ import './WeatherDay.css';
 import WeatherHour from './WeatherHour';
 
 const WeatherDay = ({ day, timeAndTemp }) => {
-  console.log({ timeAndTemp });
-
   return (
     <div className="weather-day">
       <div className="day">
@@ -30,8 +28,3 @@ WeatherDay.propTypes = {
 };
 
 export default WeatherDay;
-
-/* 
-{Object.entries(timeAndTemp).map(([hour, temp, up], index) => (
-  <WeatherHour key={index} hour={hour} temp={temp} up={up} />
-))} */

@@ -5,7 +5,7 @@ import WeatherContainer from './components/WeatherContainer';
 const App = () => {
   return (
     <>
-      <Header text="Weather" />
+      <Header text="Brussels Weather" />
       <WeatherContainer />
     </>
   );

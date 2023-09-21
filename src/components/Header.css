@@ -1,0 +1,9 @@
+.header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  font-family: Roboto, serif;
+  font-size: 3.25rem;
+}
